@@ -37,7 +37,7 @@
 
 #cuadro{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 
 }
 #span1, #span3{
@@ -50,6 +50,13 @@
 #key{
     margin-top: 5%;
     margin-left: 15%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#key1{
+    margin-top: 5%;
     width: 200px;
     height: 200px;
     border: 2px solid black;
