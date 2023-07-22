@@ -40,7 +40,6 @@ function cambiodecolormostrardiv(evento) {
         div6.style.display = '';
         div6.style.backgroundColor = 'brown';
     } else {
-        span5.innerHTML = "Elegiste la tecla equivocada";
         div6.style.display = 'none';
     }
 }
