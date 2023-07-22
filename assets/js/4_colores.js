@@ -3,6 +3,7 @@ const div2 = document.getElementById('div2');
 const div3 = document.getElementById('div3');
 const div4 = document.getElementById('div4');
 const div5 = document.getElementById('key');
+const span5 = document.getElementById('span5');
 /* const span1 = document.getElementById('span1');
 const span2 = document.getElementById('span2');
 const span3 = document.getElementById('span3');
@@ -39,6 +40,7 @@ function cambiodecolormostrardiv(evento) {
         div6.style.display = '';
         div6.style.backgroundColor = 'brown';
     } else {
+        span5.innerHTML = "Elegiste la tecla equivocada";
         div6.style.display = 'none';
     }
 }
